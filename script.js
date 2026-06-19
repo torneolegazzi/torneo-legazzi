@@ -163,7 +163,7 @@ async function caricaPronostici() {
   try {
     const cfg = await caricaConfig();
     if (!cfg.pronostici_visibili) {
-      wrap.innerHTML = '<div class="placeholder">I pronostici verranno caricati tutti al termine delle iscrizioni.</div>';
+      wrap.innerHTML = '<div class="placeholder">I pronostici di tutti i partecipanti verranno pubblicati qui al termine del periodo di iscrizioni.</div>';
       return;
     }
 
