@@ -163,7 +163,7 @@ async function caricaPronostici() {
   try {
     const cfg = await caricaConfig();
     if (!cfg.pronostici_visibili) {
-      wrap.innerHTML = '<div class="placeholder">📋 I pronostici saranno pubblicati dopo la chiusura delle iscrizioni, prima dell\'inizio della 1ª giornata. Torna presto!</div>';
+      wrap.innerHTML = '<div class="placeholder">I pronostici verranno caricati tutti al termine delle iscrizioni.</div>';
       return;
     }
 
