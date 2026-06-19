@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Torneo Legazzi — Pronostici Serie A 2026/27</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-brand">
+    <div class="header-brand-text">
+      <h1>Torneo Legazzi</h1>
+      <p>Pronostici Serie A 2026/27</p>
+    </div>
+  </div>
+  <nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="regolamento.html">Regolamento</a>
+    <a href="classifica.html">Classifica</a>
+    <a href="pronostici.html">Pronostici</a>
+    <a href="albo.html">Albo d'oro</a>
+    <a href="contatti.html">Contatti</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ── HERO ─────────────────────────────────────────── -->
+  <section class="hero" data-reveal="up">
+    <div class="hero-eyebrow">Serie A 2026/27</div>
+    <h1 class="hero-title">Torneo<br>Legazzi</h1>
+    <p class="hero-subtitle">Il torneo di pronostici tra amici più competitivo dell'anno. Indovina risultati, bonus e classifica finale.</p>
+
+    <a class="btn btn-regolamento" href="pdf/regolamento.pdf" target="_blank">📄 Regolamento</a>
+
+    <div class="hero-ctas hero-ctas-main">
+      <a class="btn btn-excel btn-lg" href="Nome_Cognome.xlsx" download>⬇ Scarica file Excel</a>
+      <a id="link-form" class="btn btn-lg" href="#" target="_blank">Carica i tuoi pronostici →</a>
+    </div>
+    <div class="hero-ctas hero-ctas-secondary">
+      <a id="link-whatsapp" class="btn btn-whatsapp" href="#" target="_blank">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Gruppo WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- ── PAGAMENTO ─────────────────────────────────────── -->
+  <div class="card card-pagamento" data-reveal="up" style="display:none">
+    <h3>💳 Quota di iscrizione</h3>
+    <p id="pagamento-desc">Paga la tua quota tramite Revolut.</p>
+    <div class="pagamento-causale-wrap">
+      <span class="pagamento-causale-label">Causale da inserire:</span>
+      <div class="pagamento-causale-row">
+        <code id="pagamento-causale" class="causale-text"></code>
+        <button class="btn-copia" onclick="copiaCausale()" title="Copia causale">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+          <span id="copia-label">Copia</span>
+        </button>
+      </div>
+    </div>
+    <a id="link-revolut" class="btn btn-revolut" href="#" target="_blank">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8.5L13.5 2zm0 0v6H20"/></svg>
+      Paga con Revolut
+    </a>
+  </div>
+
+  <!-- ── AGGIORNAMENTO CLASSIFICA ───────────────────────── -->
+  <div class="card card-aggiornamento" data-reveal="up" style="display:none">
+    <h3>📣 Aggiornamento classifica</h3>
+    <p id="aggiornamento-classifica" class="aggiornamento-testo"></p>
+    <a class="btn btn-sm" href="classifica.html">Vedi classifica completa →</a>
+  </div>
+
+  <!-- ── MENZIONI SPECIALI ──────────────────────────────── -->
+  <div class="card card-menzioni" data-reveal="up" style="display:none">
+    <h3>Menzioni speciali</h3>
+    <div id="lista-menzioni" class="menzioni-grid"></div>
+  </div>
+
+  <!-- ── TOP 3 ──────────────────────────────────────── -->
+  <div class="card card-top3" data-reveal="up">
+    <h3>Classifica — Top 3</h3>
+    <div id="top3" class="top3-list">
+      <div class="placeholder">Caricamento…</div>
+    </div>
+    <a class="btn btn-sm btn-outline" href="classifica.html" style="margin-top:18px">Vedi classifica completa →</a>
+  </div>
+
+  <!-- ── COUNTDOWN GIORNATA ──────────────────────────── -->
+  <div class="card" data-reveal="up">
+    <h3 id="titolo-giornata">Prossima giornata</h3>
+    <div class="countdown-grid">
+      <div class="digit-block"><span id="cd-g">--</span><label>giorni</label></div>
+      <div class="digit-block"><span id="cd-h">--</span><label>ore</label></div>
+      <div class="digit-block"><span id="cd-m">--</span><label>minuti</label></div>
+      <div class="digit-block"><span id="cd-s">--</span><label>secondi</label></div>
+    </div>
+    <small>Tempo rimanente al fischio d'inizio della prossima giornata</small>
+  </div>
+
+  <!-- ── COUNTDOWN RITORNO ───────────────────────────── -->
+  <div class="card" data-reveal="up">
+    <h3>Scadenza caricamento Ritorno</h3>
+    <div class="countdown-grid">
+      <div class="digit-block"><span id="cr-g">--</span><label>giorni</label></div>
+      <div class="digit-block"><span id="cr-h">--</span><label>ore</label></div>
+      <div class="digit-block"><span id="cr-m">--</span><label>minuti</label></div>
+      <div class="digit-block"><span id="cr-s">--</span><label>secondi</label></div>
+    </div>
+    <small>Entro inizio 20ª giornata — dopo questa data i pronostici del Ritorno sono bloccati</small>
+  </div>
+
+
+</main>
+
+<footer>Torneo Legazzi &middot; aggiornato automaticamente &middot; <a href="contatti.html">Contatti</a></footer>
+
+<script src="script.js"></script>
+<script src="animations.js"></script>
+<script>
+applicaVisibilitaSito().then(ok => {
+  if (!ok) return;
+  avviaCountdownHome();
+  caricaTop3();
+  caricaPagamento();
+  caricaMenzioni();
+  caricaConfig().then(cfg => {
+    const href = (cfg.link_form && cfg.link_form !== 'METTI_QUI_IL_LINK_AL_GOOGLE_FORM')
+      ? cfg.link_form : null;
+    if (href) {
+      document.getElementById('link-form').href = href;
+    } else {
+      document.getElementById('link-form').style.display = 'none';
+    }
+    const wa = document.getElementById('link-whatsapp');
+    if (cfg.link_whatsapp) { wa.href = cfg.link_whatsapp; }
+  });
+});
+</script>
+</body>
+</html>

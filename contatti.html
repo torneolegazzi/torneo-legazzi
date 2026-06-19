@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Torneo Legazzi — Info e contatti</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="header-brand">
+    <div class="header-brand-text">
+      <h1>Torneo Legazzi</h1>
+      <p>Pronostici Serie A 2026/27</p>
+    </div>
+  </div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="regolamento.html">Regolamento</a>
+    <a href="classifica.html">Classifica</a>
+    <a href="pronostici.html">Pronostici</a>
+    <a href="albo.html">Albo d'oro</a>
+    <a href="contatti.html" class="active">Contatti</a>
+  </nav>
+</header>
+<main>
+  <h2 data-reveal="up">Info e contatti</h2>
+
+  <div class="card" data-reveal="up">
+    <h3>Hai trovato un errore?</h3>
+    <p>Scrivi un'email descrivendo il problema — un risultato sbagliato, un pronostico non caricato, un errore nella classifica.</p>
+    <a class="btn" id="link-mail" href="#">Scrivi un'email →</a>
+  </div>
+
+  <div class="card" id="card-segnalazioni" data-reveal="up" style="display:none">
+    <h3>Modulo segnalazioni</h3>
+    <p>In alternativa puoi usare questo modulo:</p>
+    <a class="btn" id="link-segnalazioni" href="#" target="_blank">Apri modulo →</a>
+  </div>
+</main>
+<footer>Torneo Legazzi &middot; aggiornato automaticamente</footer>
+<script src="script.js"></script>
+<script src="animations.js"></script>
+<script>applicaVisibilitaSito().then(ok => { if (ok) caricaContatti(); });</script>
+</body>
+</html>

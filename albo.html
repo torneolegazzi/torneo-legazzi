@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Torneo Legazzi — Albo d'oro</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="header-brand">
+    <div class="header-brand-text">
+      <h1>Torneo Legazzi</h1>
+      <p>Pronostici Serie A 2026/27</p>
+    </div>
+  </div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="regolamento.html">Regolamento</a>
+    <a href="classifica.html">Classifica</a>
+    <a href="pronostici.html">Pronostici</a>
+    <a href="albo.html" class="active">Albo d'oro</a>
+    <a href="contatti.html">Contatti</a>
+  </nav>
+</header>
+<main>
+  <h2 data-reveal="up">Albo d'oro</h2>
+  <p data-reveal="up">Il podio delle edizioni passate del torneo.</p>
+  <div class="table-wrap" id="table-wrap-albo" data-reveal="up" style="margin-top:28px">Caricamento…</div>
+</main>
+<footer>Torneo Legazzi &middot; aggiornato automaticamente</footer>
+<script src="script.js"></script>
+<script src="animations.js"></script>
+<script>applicaVisibilitaSito().then(ok => { if (ok) caricaAlbo(); });</script>
+</body>
+</html>

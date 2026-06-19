@@ -1,0 +1,7 @@
+{
+  "_istruzioni": "Aggiorna questo file dopo ogni giornata. aggiornamento_classifica: frase breve sulla situazione in vetta. menzioni: array di oggetti con 'tipo' (speciale/record/curiosita) e 'testo'. Lascia vuoto ('') o array vuoto per non mostrare nulla.",
+
+  "aggiornamento_classifica": "",
+
+  "menzioni": []
+}

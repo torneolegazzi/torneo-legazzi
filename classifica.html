@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Torneo Legazzi — Classifica</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="header-brand">
+    <div class="header-brand-text">
+      <h1>Torneo Legazzi</h1>
+      <p>Pronostici Serie A 2026/27</p>
+    </div>
+  </div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="regolamento.html">Regolamento</a>
+    <a href="classifica.html" class="active">Classifica</a>
+    <a href="pronostici.html">Pronostici</a>
+    <a href="albo.html">Albo d'oro</a>
+    <a href="contatti.html">Contatti</a>
+  </nav>
+</header>
+<main>
+  <h2 data-reveal="up">Classifica — Top 10</h2>
+  <div class="info" id="info" data-reveal="up">Caricamento classifica…</div>
+  <div class="table-wrap" id="table-wrap" data-reveal="up"></div>
+
+  <h2 style="margin-top:56px" data-reveal="up">Classifica completa</h2>
+  <div class="card" data-reveal="up">
+    <h3>PDF con tutte le giornate e i bonus</h3>
+    <p>La classifica completa con il dettaglio di tutte le giornate e i bonus è disponibile in PDF.</p>
+    <a class="btn" href="pdf/classifica_completa.pdf" target="_blank">Apri classifica completa →</a>
+  </div>
+</main>
+<footer>Torneo Legazzi &middot; aggiornato automaticamente</footer>
+<script src="script.js"></script>
+<script src="animations.js"></script>
+<script>applicaVisibilitaSito().then(ok => { if (ok) caricaClassifica(10); });</script>
+</body>
+</html>
