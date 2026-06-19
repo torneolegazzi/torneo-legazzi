@@ -161,6 +161,12 @@ async function caricaClassifica(top) {
 async function caricaPronostici() {
   const wrap = document.getElementById('lista-partecipanti');
   try {
+    const cfg = await caricaConfig();
+    if (!cfg.pronostici_visibili) {
+      wrap.innerHTML = '<div class="placeholder">📋 I pronostici saranno pubblicati dopo la chiusura delle iscrizioni, prima dell\'inizio della 1ª giornata. Torna presto!</div>';
+      return;
+    }
+
     const res = await fetch('classifica.json?_=' + Date.now());
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();

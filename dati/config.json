@@ -2,9 +2,11 @@
   "_istruzioni": "Compila le date in formato ISO 'YYYY-MM-DDTHH:MM' (orario locale Italia). Lascia null se non ancora note: il countdown mostrera' 'data da definire'.",
   "sito_completo": true,
   "_sito_completo_nota": "Se false, mostra solo la pagina Regolamento (le altre voci di menu sono nascoste e la Home reindirizza al Regolamento). Metti a true quando il sito e' pronto per tutti.",
+  "pronostici_visibili": false,
+  "_pronostici_visibili_nota": "Se false, la pagina Pronostici mostra un messaggio 'in attesa'. Metti a true dopo la chiusura delle iscrizioni (prima della 1a giornata).",
   "link_form": "https://docs.google.com/forms/d/e/1FAIpQLSe3iYKEpQ90AMA4fBY95IDpPv2T3lmMDaqI_tRnF0ADm4hESw/viewform",
   "email_contatti": "gianlucafinetti821@gmail.com",
-  "link_whatsapp": null,
+  "link_whatsapp": "https://chat.whatsapp.com/EWjSijXYXm7IiRJeW1PDrg",
   "_link_whatsapp_nota": "Link invito gruppo WhatsApp (es. https://chat.whatsapp.com/XXXXX). Se null, il bottone non compare.",
   "pagamento": {
     "link_revolut": "https://revolut.me/gianlucafinetti",
