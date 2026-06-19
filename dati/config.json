@@ -7,7 +7,7 @@
   "link_whatsapp": null,
   "_link_whatsapp_nota": "Link invito gruppo WhatsApp (es. https://chat.whatsapp.com/XXXXX). Se null, il bottone non compare.",
   "pagamento": {
-    "link_revolut": null,
+    "link_revolut": "https://revolut.me/gianlucafinetti",
     "_link_revolut_nota": "Il tuo link Revolut personale (es. https://revolut.me/tuonome). Se null, la sezione non compare.",
     "importo": "10€",
     "causale": "Torneo Legazzi 2026/27 — quota iscrizione [Il tuo nome]"
