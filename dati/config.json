@@ -9,7 +9,7 @@
   "pagamento": {
     "link_revolut": null,
     "_link_revolut_nota": "Il tuo link Revolut personale (es. https://revolut.me/tuonome). Se null, la sezione non compare.",
-    "importo": "20€",
+    "importo": "10€",
     "causale": "Torneo Legazzi 2026/27 — quota iscrizione [Il tuo nome]"
   },
   "link_segnalazioni": null,
