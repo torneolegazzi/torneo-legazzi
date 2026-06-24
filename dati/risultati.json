@@ -1,0 +1,2510 @@
+[
+ {
+  "numero": 1,
+  "data": "23 Agosto 2026",
+  "partite": [
+   {
+    "casa": "Atalanta",
+    "ospite": "Sassuolo",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Bologna",
+    "ospite": "Lazio",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Frosinone",
+    "ospite": "Juventus",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Genoa",
+    "ospite": "Napoli",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Inter",
+    "ospite": "Monza",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Parma",
+    "ospite": "Cagliari",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Roma",
+    "ospite": "Fiorentina",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Torino",
+    "ospite": "Milan",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Udinese",
+    "ospite": "Como",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Venezia",
+    "ospite": "Lecce",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 2,
+  "data": "30 Agosto 2026",
+  "partite": [
+   {
+    "casa": "Atalanta",
+    "ospite": "Bologna",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Cagliari",
+    "ospite": "Inter",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Fiorentina",
+    "ospite": "Frosinone",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Juventus",
+    "ospite": "Parma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lazio",
+    "ospite": "Genoa",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lecce",
+    "ospite": "Roma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Milan",
+    "ospite": "Venezia",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Monza",
+    "ospite": "Udinese",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Napoli",
+    "ospite": "Como",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Sassuolo",
+    "ospite": "Torino",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 3,
+  "data": "6 Settembre 2026",
+  "partite": [
+   {
+    "casa": "Bologna",
+    "ospite": "Sassuolo",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Cagliari",
+    "ospite": "Lecce",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Fiorentina",
+    "ospite": "Torino",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Frosinone",
+    "ospite": "Venezia",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Genoa",
+    "ospite": "Como",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Inter",
+    "ospite": "Napoli",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Juventus",
+    "ospite": "Milan",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Parma",
+    "ospite": "Monza",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Roma",
+    "ospite": "Atalanta",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Udinese",
+    "ospite": "Lazio",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 4,
+  "data": "13 Settembre 2026",
+  "partite": [
+   {
+    "casa": "Atalanta",
+    "ospite": "Cagliari",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Como",
+    "ospite": "Parma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Genoa",
+    "ospite": "Frosinone",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Inter",
+    "ospite": "Udinese",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lazio",
+    "ospite": "Milan",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lecce",
+    "ospite": "Monza",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Napoli",
+    "ospite": "Bologna",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Sassuolo",
+    "ospite": "Juventus",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Torino",
+    "ospite": "Roma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Venezia",
+    "ospite": "Fiorentina",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 5,
+  "data": "20 Settembre 2026",
+  "partite": [
+   {
+    "casa": "Bologna",
+    "ospite": "Torino",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Fiorentina",
+    "ospite": "Napoli",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Frosinone",
+    "ospite": "Como",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Juventus",
+    "ospite": "Atalanta",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Milan",
+    "ospite": "Lecce",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Monza",
+    "ospite": "Sassuolo",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Parma",
+    "ospite": "Genoa",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Roma",
+    "ospite": "Inter",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Udinese",
+    "ospite": "Cagliari",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Venezia",
+    "ospite": "Lazio",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 6,
+  "data": "11 Ottobre 2026",
+  "partite": [
+   {
+    "casa": "Atalanta",
+    "ospite": "Venezia",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Cagliari",
+    "ospite": "Juventus",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Como",
+    "ospite": "Roma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Genoa",
+    "ospite": "Fiorentina",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Inter",
+    "ospite": "Parma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lazio",
+    "ospite": "Monza",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lecce",
+    "ospite": "Bologna",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Napoli",
+    "ospite": "Frosinone",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Sassuolo",
+    "ospite": "Milan",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Torino",
+    "ospite": "Udinese",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 7,
+  "data": "18 Ottobre 2026",
+  "partite": [
+   {
+    "casa": "Bologna",
+    "ospite": "Inter",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Fiorentina",
+    "ospite": "Como",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Frosinone",
+    "ospite": "Sassuolo",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Juventus",
+    "ospite": "Lazio",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Milan",
+    "ospite": "Atalanta",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Monza",
+    "ospite": "Cagliari",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Parma",
+    "ospite": "Torino",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Roma",
+    "ospite": "Genoa",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Udinese",
+    "ospite": "Lecce",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Venezia",
+    "ospite": "Napoli",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 8,
+  "data": "25 Ottobre 2026",
+  "partite": [
+   {
+    "casa": "Atalanta",
+    "ospite": "Frosinone",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Cagliari",
+    "ospite": "Bologna",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Como",
+    "ospite": "Sassuolo",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Genoa",
+    "ospite": "Venezia",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Inter",
+    "ospite": "Fiorentina",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lazio",
+    "ospite": "Parma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lecce",
+    "ospite": "Juventus",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Napoli",
+    "ospite": "Roma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Torino",
+    "ospite": "Monza",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Udinese",
+    "ospite": "Milan",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 9,
+  "data": "28 Ottobre 2026",
+  "partite": [
+   {
+    "casa": "Fiorentina",
+    "ospite": "Atalanta",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Frosinone",
+    "ospite": "Lecce",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Genoa",
+    "ospite": "Juventus",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Milan",
+    "ospite": "Bologna",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Monza",
+    "ospite": "Napoli",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Parma",
+    "ospite": "Udinese",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Roma",
+    "ospite": "Cagliari",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Sassuolo",
+    "ospite": "Lazio",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Torino",
+    "ospite": "Como",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Venezia",
+    "ospite": "Inter",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 10,
+  "data": "1 Novembre 2026",
+  "partite": [
+   {
+    "casa": "Atalanta",
+    "ospite": "Parma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Bologna",
+    "ospite": "Monza",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Como",
+    "ospite": "Venezia",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Frosinone",
+    "ospite": "Torino",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Juventus",
+    "ospite": "Napoli",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lazio",
+    "ospite": "Cagliari",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lecce",
+    "ospite": "Genoa",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Milan",
+    "ospite": "Inter",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Sassuolo",
+    "ospite": "Fiorentina",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Udinese",
+    "ospite": "Roma",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 11,
+  "data": "8 Novembre 2026",
+  "partite": [
+   {
+    "casa": "Cagliari",
+    "ospite": "Frosinone",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Fiorentina",
+    "ospite": "Juventus",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Genoa",
+    "ospite": "Milan",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Inter",
+    "ospite": "Como",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Monza",
+    "ospite": "Atalanta",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Napoli",
+    "ospite": "Lazio",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Parma",
+    "ospite": "Bologna",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Roma",
+    "ospite": "Sassuolo",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Torino",
+    "ospite": "Lecce",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Venezia",
+    "ospite": "Udinese",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 12,
+  "data": "22 Novembre 2026",
+  "partite": [
+   {
+    "casa": "Atalanta",
+    "ospite": "Inter",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Bologna",
+    "ospite": "Udinese",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Como",
+    "ospite": "Cagliari",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Juventus",
+    "ospite": "Venezia",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lazio",
+    "ospite": "Lecce",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Milan",
+    "ospite": "Frosinone",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Monza",
+    "ospite": "Fiorentina",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Napoli",
+    "ospite": "Torino",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Parma",
+    "ospite": "Roma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Sassuolo",
+    "ospite": "Genoa",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 13,
+  "data": "29 Novembre 2026",
+  "partite": [
+   {
+    "casa": "Cagliari",
+    "ospite": "Milan",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Como",
+    "ospite": "Juventus",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Frosinone",
+    "ospite": "Parma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Inter",
+    "ospite": "Genoa",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lecce",
+    "ospite": "Atalanta",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Roma",
+    "ospite": "Monza",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Sassuolo",
+    "ospite": "Napoli",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Torino",
+    "ospite": "Lazio",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Udinese",
+    "ospite": "Fiorentina",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Venezia",
+    "ospite": "Bologna",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 14,
+  "data": "6 Dicembre 2026",
+  "partite": [
+   {
+    "casa": "Bologna",
+    "ospite": "Roma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Fiorentina",
+    "ospite": "Cagliari",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Frosinone",
+    "ospite": "Inter",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Genoa",
+    "ospite": "Torino",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Juventus",
+    "ospite": "Udinese",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lazio",
+    "ospite": "Atalanta",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Milan",
+    "ospite": "Parma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Monza",
+    "ospite": "Como",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Napoli",
+    "ospite": "Lecce",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Venezia",
+    "ospite": "Sassuolo",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 15,
+  "data": "13 Dicembre 2026",
+  "partite": [
+   {
+    "casa": "Atalanta",
+    "ospite": "Genoa",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Cagliari",
+    "ospite": "Venezia",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Como",
+    "ospite": "Bologna",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Inter",
+    "ospite": "Torino",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Juventus",
+    "ospite": "Monza",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lazio",
+    "ospite": "Roma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lecce",
+    "ospite": "Sassuolo",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Napoli",
+    "ospite": "Milan",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Parma",
+    "ospite": "Fiorentina",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Udinese",
+    "ospite": "Frosinone",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 16,
+  "data": "20 Dicembre 2026",
+  "partite": [
+   {
+    "casa": "Atalanta",
+    "ospite": "Napoli",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Fiorentina",
+    "ospite": "Bologna",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Frosinone",
+    "ospite": "Lazio",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Genoa",
+    "ospite": "Udinese",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lecce",
+    "ospite": "Inter",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Milan",
+    "ospite": "Como",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Roma",
+    "ospite": "Juventus",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Sassuolo",
+    "ospite": "Parma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Torino",
+    "ospite": "Cagliari",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Venezia",
+    "ospite": "Monza",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 17,
+  "data": "3 Gennaio 2027",
+  "partite": [
+   {
+    "casa": "Bologna",
+    "ospite": "Juventus",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Cagliari",
+    "ospite": "Genoa",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Como",
+    "ospite": "Lecce",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Fiorentina",
+    "ospite": "Lazio",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Inter",
+    "ospite": "Sassuolo",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Monza",
+    "ospite": "Milan",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Parma",
+    "ospite": "Napoli",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Roma",
+    "ospite": "Frosinone",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Torino",
+    "ospite": "Venezia",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Udinese",
+    "ospite": "Atalanta",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 18,
+  "data": "6 Gennaio 2027",
+  "partite": [
+   {
+    "casa": "Atalanta",
+    "ospite": "Como",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Frosinone",
+    "ospite": "Bologna",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Genoa",
+    "ospite": "Monza",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Juventus",
+    "ospite": "Torino",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lazio",
+    "ospite": "Inter",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lecce",
+    "ospite": "Parma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Milan",
+    "ospite": "Fiorentina",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Napoli",
+    "ospite": "Cagliari",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Sassuolo",
+    "ospite": "Udinese",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Venezia",
+    "ospite": "Roma",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 19,
+  "data": "10 Gennaio 2027",
+  "partite": [
+   {
+    "casa": "Bologna",
+    "ospite": "Genoa",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Cagliari",
+    "ospite": "Sassuolo",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Como",
+    "ospite": "Lazio",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Fiorentina",
+    "ospite": "Lecce",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Inter",
+    "ospite": "Juventus",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Monza",
+    "ospite": "Frosinone",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Parma",
+    "ospite": "Venezia",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Roma",
+    "ospite": "Milan",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Torino",
+    "ospite": "Atalanta",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Udinese",
+    "ospite": "Napoli",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 20,
+  "data": "17 Gennaio 2027",
+  "partite": [
+   {
+    "casa": "Atalanta",
+    "ospite": "Roma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Cagliari",
+    "ospite": "Como",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Juventus",
+    "ospite": "Genoa",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lazio",
+    "ospite": "Bologna",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lecce",
+    "ospite": "Udinese",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Milan",
+    "ospite": "Torino",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Napoli",
+    "ospite": "Fiorentina",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Parma",
+    "ospite": "Inter",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Sassuolo",
+    "ospite": "Monza",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Venezia",
+    "ospite": "Frosinone",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 21,
+  "data": "24 Gennaio 2027",
+  "partite": [
+   {
+    "casa": "Bologna",
+    "ospite": "Atalanta",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Como",
+    "ospite": "Napoli",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Fiorentina",
+    "ospite": "Sassuolo",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Frosinone",
+    "ospite": "Milan",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Genoa",
+    "ospite": "Parma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Inter",
+    "ospite": "Venezia",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Juventus",
+    "ospite": "Cagliari",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lecce",
+    "ospite": "Torino",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Monza",
+    "ospite": "Lazio",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Roma",
+    "ospite": "Udinese",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 22,
+  "data": "31 Gennaio 2027",
+  "partite": [
+   {
+    "casa": "Atalanta",
+    "ospite": "Fiorentina",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Cagliari",
+    "ospite": "Parma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Genoa",
+    "ospite": "Lecce",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lazio",
+    "ospite": "Venezia",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Milan",
+    "ospite": "Juventus",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Monza",
+    "ospite": "Roma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Napoli",
+    "ospite": "Inter",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Sassuolo",
+    "ospite": "Como",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Torino",
+    "ospite": "Frosinone",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Udinese",
+    "ospite": "Bologna",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 23,
+  "data": "7 Febbraio 2027",
+  "partite": [
+   {
+    "casa": "Atalanta",
+    "ospite": "Lazio",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Bologna",
+    "ospite": "Milan",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Como",
+    "ospite": "Monza",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Fiorentina",
+    "ospite": "Udinese",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Inter",
+    "ospite": "Cagliari",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Juventus",
+    "ospite": "Sassuolo",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lecce",
+    "ospite": "Napoli",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Parma",
+    "ospite": "Frosinone",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Roma",
+    "ospite": "Torino",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Venezia",
+    "ospite": "Genoa",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 24,
+  "data": "14 Febbraio 2027",
+  "partite": [
+   {
+    "casa": "Bologna",
+    "ospite": "Como",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Cagliari",
+    "ospite": "Lazio",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Frosinone",
+    "ospite": "Fiorentina",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Genoa",
+    "ospite": "Atalanta",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Inter",
+    "ospite": "Milan",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Monza",
+    "ospite": "Lecce",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Napoli",
+    "ospite": "Juventus",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Roma",
+    "ospite": "Parma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Torino",
+    "ospite": "Sassuolo",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Udinese",
+    "ospite": "Venezia",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 25,
+  "data": "21 Febbraio 2027",
+  "partite": [
+   {
+    "casa": "Atalanta",
+    "ospite": "Monza",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Como",
+    "ospite": "Torino",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Fiorentina",
+    "ospite": "Inter",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Juventus",
+    "ospite": "Bologna",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lazio",
+    "ospite": "Napoli",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lecce",
+    "ospite": "Frosinone",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Milan",
+    "ospite": "Genoa",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Sassuolo",
+    "ospite": "Roma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Udinese",
+    "ospite": "Parma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Venezia",
+    "ospite": "Cagliari",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 26,
+  "data": "28 Febbraio 2027",
+  "partite": [
+   {
+    "casa": "Bologna",
+    "ospite": "Lecce",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Cagliari",
+    "ospite": "Udinese",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Como",
+    "ospite": "Milan",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Frosinone",
+    "ospite": "Napoli",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Genoa",
+    "ospite": "Lazio",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Inter",
+    "ospite": "Atalanta",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Monza",
+    "ospite": "Juventus",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Parma",
+    "ospite": "Sassuolo",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Roma",
+    "ospite": "Venezia",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Torino",
+    "ospite": "Fiorentina",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 27,
+  "data": "7 Marzo 2027",
+  "partite": [
+   {
+    "casa": "Atalanta",
+    "ospite": "Torino",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Fiorentina",
+    "ospite": "Venezia",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Juventus",
+    "ospite": "Roma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lazio",
+    "ospite": "Frosinone",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lecce",
+    "ospite": "Como",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Milan",
+    "ospite": "Cagliari",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Monza",
+    "ospite": "Genoa",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Napoli",
+    "ospite": "Parma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Sassuolo",
+    "ospite": "Bologna",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Udinese",
+    "ospite": "Inter",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 28,
+  "data": "14 Marzo 2027",
+  "partite": [
+   {
+    "casa": "Bologna",
+    "ospite": "Napoli",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Cagliari",
+    "ospite": "Fiorentina",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Como",
+    "ospite": "Udinese",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Frosinone",
+    "ospite": "Monza",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Genoa",
+    "ospite": "Roma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lazio",
+    "ospite": "Juventus",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Milan",
+    "ospite": "Sassuolo",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Parma",
+    "ospite": "Lecce",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Torino",
+    "ospite": "Inter",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Venezia",
+    "ospite": "Atalanta",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 29,
+  "data": "21 Marzo 2027",
+  "partite": [
+   {
+    "casa": "Atalanta",
+    "ospite": "Milan",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Fiorentina",
+    "ospite": "Genoa",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Inter",
+    "ospite": "Frosinone",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Juventus",
+    "ospite": "Como",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Monza",
+    "ospite": "Bologna",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Napoli",
+    "ospite": "Venezia",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Parma",
+    "ospite": "Lazio",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Roma",
+    "ospite": "Lecce",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Sassuolo",
+    "ospite": "Cagliari",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Udinese",
+    "ospite": "Torino",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 30,
+  "data": "4 Aprile 2027",
+  "partite": [
+   {
+    "casa": "Cagliari",
+    "ospite": "Napoli",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Como",
+    "ospite": "Fiorentina",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Frosinone",
+    "ospite": "Udinese",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Genoa",
+    "ospite": "Inter",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lecce",
+    "ospite": "Lazio",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Milan",
+    "ospite": "Monza",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Roma",
+    "ospite": "Bologna",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Sassuolo",
+    "ospite": "Atalanta",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Torino",
+    "ospite": "Juventus",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Venezia",
+    "ospite": "Parma",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 31,
+  "data": "11 Aprile 2027",
+  "partite": [
+   {
+    "casa": "Bologna",
+    "ospite": "Venezia",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Cagliari",
+    "ospite": "Atalanta",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Fiorentina",
+    "ospite": "Milan",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Frosinone",
+    "ospite": "Genoa",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Inter",
+    "ospite": "Roma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Juventus",
+    "ospite": "Lecce",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lazio",
+    "ospite": "Torino",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Napoli",
+    "ospite": "Sassuolo",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Parma",
+    "ospite": "Como",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Udinese",
+    "ospite": "Monza",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 32,
+  "data": "18 Aprile 2027",
+  "partite": [
+   {
+    "casa": "Atalanta",
+    "ospite": "Udinese",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Bologna",
+    "ospite": "Cagliari",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Como",
+    "ospite": "Frosinone",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Fiorentina",
+    "ospite": "Parma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Milan",
+    "ospite": "Napoli",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Monza",
+    "ospite": "Inter",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Roma",
+    "ospite": "Lazio",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Sassuolo",
+    "ospite": "Lecce",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Torino",
+    "ospite": "Genoa",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Venezia",
+    "ospite": "Juventus",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 33,
+  "data": "25 Aprile 2027",
+  "partite": [
+   {
+    "casa": "Cagliari",
+    "ospite": "Monza",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Frosinone",
+    "ospite": "Roma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Genoa",
+    "ospite": "Sassuolo",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Inter",
+    "ospite": "Bologna",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Juventus",
+    "ospite": "Fiorentina",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lazio",
+    "ospite": "Como",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lecce",
+    "ospite": "Milan",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Napoli",
+    "ospite": "Udinese",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Parma",
+    "ospite": "Atalanta",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Venezia",
+    "ospite": "Torino",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 34,
+  "data": "2 Maggio 2027",
+  "partite": [
+   {
+    "casa": "Atalanta",
+    "ospite": "Juventus",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Bologna",
+    "ospite": "Fiorentina",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Como",
+    "ospite": "Inter",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lecce",
+    "ospite": "Cagliari",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Milan",
+    "ospite": "Lazio",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Monza",
+    "ospite": "Venezia",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Roma",
+    "ospite": "Napoli",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Sassuolo",
+    "ospite": "Frosinone",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Torino",
+    "ospite": "Parma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Udinese",
+    "ospite": "Genoa",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 35,
+  "data": "9 Maggio 2027",
+  "partite": [
+   {
+    "casa": "Fiorentina",
+    "ospite": "Roma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Frosinone",
+    "ospite": "Atalanta",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Genoa",
+    "ospite": "Cagliari",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Inter",
+    "ospite": "Lecce",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lazio",
+    "ospite": "Sassuolo",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Napoli",
+    "ospite": "Monza",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Parma",
+    "ospite": "Milan",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Torino",
+    "ospite": "Bologna",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Udinese",
+    "ospite": "Juventus",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Venezia",
+    "ospite": "Como",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 36,
+  "data": "16 Maggio 2027",
+  "partite": [
+   {
+    "casa": "Bologna",
+    "ospite": "Frosinone",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Cagliari",
+    "ospite": "Torino",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Como",
+    "ospite": "Atalanta",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Juventus",
+    "ospite": "Inter",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lazio",
+    "ospite": "Udinese",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lecce",
+    "ospite": "Fiorentina",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Milan",
+    "ospite": "Roma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Monza",
+    "ospite": "Parma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Napoli",
+    "ospite": "Genoa",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Sassuolo",
+    "ospite": "Venezia",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 37,
+  "data": "23 Maggio 2027",
+  "partite": [
+   {
+    "casa": "Atalanta",
+    "ospite": "Lecce",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Fiorentina",
+    "ospite": "Monza",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Frosinone",
+    "ospite": "Cagliari",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Genoa",
+    "ospite": "Bologna",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Inter",
+    "ospite": "Lazio",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Parma",
+    "ospite": "Juventus",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Roma",
+    "ospite": "Como",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Torino",
+    "ospite": "Napoli",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Udinese",
+    "ospite": "Sassuolo",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Venezia",
+    "ospite": "Milan",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ },
+ {
+  "numero": 38,
+  "data": "30 Maggio 2027",
+  "partite": [
+   {
+    "casa": "Bologna",
+    "ospite": "Parma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Cagliari",
+    "ospite": "Roma",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Como",
+    "ospite": "Genoa",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Juventus",
+    "ospite": "Frosinone",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lazio",
+    "ospite": "Fiorentina",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Lecce",
+    "ospite": "Venezia",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Milan",
+    "ospite": "Udinese",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Monza",
+    "ospite": "Torino",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Napoli",
+    "ospite": "Atalanta",
+    "casa_gol": null,
+    "ospite_gol": null
+   },
+   {
+    "casa": "Sassuolo",
+    "ospite": "Inter",
+    "casa_gol": null,
+    "ospite_gol": null
+   }
+  ]
+ }
+]

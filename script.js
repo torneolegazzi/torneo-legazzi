@@ -304,6 +304,102 @@ async function caricaMenzioni() {
   } catch (_) {}
 }
 
+// ---- Risultati: selettore giornata + partite ----
+async function caricaRisultati() {
+  const sel  = document.getElementById('sel-giornata');
+  const wrap = document.getElementById('risultati-wrap');
+  let giornate;
+  try {
+    const res = await fetch('dati/risultati.json?_=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    giornate = await res.json();
+  } catch (err) {
+    wrap.innerHTML = '<div class="errore">Errore nel caricamento dei risultati: ' + err.message + '</div>';
+    return;
+  }
+
+  sel.innerHTML = giornate.map(g =>
+    `<option value="${g.numero}">Giornata ${g.numero}${g.data ? ' — ' + g.data : ''}</option>`
+  ).join('');
+
+  function render(numero) {
+    const g = giornate.find(x => x.numero === numero);
+    if (!g) { wrap.innerHTML = ''; return; }
+    const righe = g.partite.map(p => {
+      const ris = (p.casa_gol == null || p.ospite_gol == null)
+        ? '<span class="ris-vs">–</span>'
+        : `<span class="ris-gol">${p.casa_gol}</span><span class="ris-sep">:</span><span class="ris-gol">${p.ospite_gol}</span>`;
+      return `<div class="ris-row">
+        <span class="ris-casa">${p.casa}</span>
+        <span class="ris-box">${ris}</span>
+        <span class="ris-ospite">${p.ospite}</span>
+      </div>`;
+    }).join('');
+    wrap.innerHTML = `<div class="ris-giornata">
+      <div class="ris-data">${g.data || ''}</div>
+      ${righe}
+    </div>`;
+  }
+
+  // ponytail: prima giornata senza risultati come default
+  sel.addEventListener('change', () => render(parseInt(sel.value, 10)));
+  render(giornate[0].numero);
+}
+
+// ---- Home: statistiche bonus piu' gettonati (marquee dx->sx) ----
+// ponytail: se dati/bonus_stats.json esiste lo usa; altrimenti mostra l'anteprima demo.
+async function caricaBonusStats() {
+  const sezione = document.getElementById('bonus-stats');
+  if (!sezione) return;
+
+  // Nascosto finché non iniziano i caricamenti (flag in config.json)
+  try {
+    const cfg = await caricaConfig();
+    if (!cfg.bonus_visibili) return;
+  } catch (_) { return; }
+
+  const track = document.getElementById('bonus-track');
+
+  // Anteprima finta (rimuovere quando ci sono i voti veri)
+  const demo = {
+    demo: true,
+    categorie: [
+      { titolo: 'Campione d\'Italia', scelte: [
+        { nome: 'Inter', voti: 9 }, { nome: 'Napoli', voti: 7 },
+        { nome: 'Juventus', voti: 5 }, { nome: 'Milan', voti: 3 }, { nome: 'Atalanta', voti: 2 } ] },
+      { titolo: 'Coppa Italia', scelte: [
+        { nome: 'Juventus', voti: 8 }, { nome: 'Roma', voti: 6 },
+        { nome: 'Lazio', voti: 4 }, { nome: 'Fiorentina', voti: 3 } ] },
+      { titolo: 'Capocannoniere', scelte: [
+        { nome: 'Lautaro Martínez', voti: 7 }, { nome: 'Hojlund', voti: 5 },
+        { nome: 'Vlahovic', voti: 4 }, { nome: 'Retegui', voti: 3 } ] },
+    ],
+  };
+
+  let data;
+  try {
+    const res = await fetch('dati/bonus_stats.json?_=' + Date.now());
+    data = res.ok ? await res.json() : demo;
+  } catch (_) { data = demo; }
+  if (!data.categorie || !data.categorie.length) data = demo;
+
+  const blocchi = data.categorie.map(cat => {
+    const max = Math.max(...cat.scelte.map(s => s.voti), 1);
+    const righe = cat.scelte.map(s => `
+      <div class="bs-riga">
+        <span class="bs-nome">${s.nome}</span>
+        <span class="bs-bar"><span class="bs-fill" style="width:${Math.round(s.voti / max * 100)}%"></span></span>
+        <span class="bs-voti">${s.voti}</span>
+      </div>`).join('');
+    return `<div class="bs-card"><h4>${cat.titolo}</h4>${righe}</div>`;
+  }).join('');
+
+  // doppia copia per scorrimento continuo
+  track.innerHTML = blocchi + blocchi;
+  if (data.demo) document.getElementById('bonus-demo-badge').style.display = '';
+  sezione.style.display = '';
+}
+
 // ---- Info e contatti ----
 async function caricaContatti() {
   const linkMail = document.getElementById('link-mail');

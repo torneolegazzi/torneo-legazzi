@@ -4,6 +4,8 @@
   "_sito_completo_nota": "Se false, mostra solo la pagina Regolamento (le altre voci di menu sono nascoste e la Home reindirizza al Regolamento). Metti a true quando il sito e' pronto per tutti.",
   "pronostici_visibili": false,
   "_pronostici_visibili_nota": "Se false, la pagina Pronostici mostra un messaggio 'in attesa'. Metti a true dopo la chiusura delle iscrizioni (prima della 1a giornata).",
+  "bonus_visibili": false,
+  "_bonus_visibili_nota": "Se false, la sezione 'Bonus piu' gettonati' in home e' nascosta. Metti a true quando iniziano i caricamenti. Finche' manca sito/dati/bonus_stats.json mostra l'anteprima demo con badge giallo.",
   "link_form": "https://docs.google.com/forms/d/e/1FAIpQLSe3iYKEpQ90AMA4fBY95IDpPv2T3lmMDaqI_tRnF0ADm4hESw/viewform",
   "email_contatti": "torneolegazzi@gmail.com",
   "link_whatsapp": "https://chat.whatsapp.com/EWjSijXYXm7IiRJeW1PDrg",
@@ -18,43 +20,157 @@
   "_link_segnalazioni_nota": "Opzionale: link a un secondo Google Form per le segnalazioni. Se null, nella pagina 'Info e contatti' compare solo il link email.",
   "scadenza_ritorno": "2027-01-17T00:00",
   "giornate": [
-    { "numero": 1,  "data": "2026-08-23T00:00" },
-    { "numero": 2,  "data": null },
-    { "numero": 3,  "data": null },
-    { "numero": 4,  "data": null },
-    { "numero": 5,  "data": null },
-    { "numero": 6,  "data": null },
-    { "numero": 7,  "data": null },
-    { "numero": 8,  "data": null },
-    { "numero": 9,  "data": null },
-    { "numero": 10, "data": null },
-    { "numero": 11, "data": null },
-    { "numero": 12, "data": null },
-    { "numero": 13, "data": null },
-    { "numero": 14, "data": null },
-    { "numero": 15, "data": null },
-    { "numero": 16, "data": null },
-    { "numero": 17, "data": null },
-    { "numero": 18, "data": null },
-    { "numero": 19, "data": null },
-    { "numero": 20, "data": null },
-    { "numero": 21, "data": null },
-    { "numero": 22, "data": null },
-    { "numero": 23, "data": null },
-    { "numero": 24, "data": null },
-    { "numero": 25, "data": null },
-    { "numero": 26, "data": null },
-    { "numero": 27, "data": null },
-    { "numero": 28, "data": null },
-    { "numero": 29, "data": null },
-    { "numero": 30, "data": null },
-    { "numero": 31, "data": null },
-    { "numero": 32, "data": null },
-    { "numero": 33, "data": null },
-    { "numero": 34, "data": null },
-    { "numero": 35, "data": null },
-    { "numero": 36, "data": null },
-    { "numero": 37, "data": null },
-    { "numero": 38, "data": null }
+    {
+      "numero": 1,
+      "data": "2026-08-23T15:00"
+    },
+    {
+      "numero": 2,
+      "data": "2026-08-30T15:00"
+    },
+    {
+      "numero": 3,
+      "data": "2026-09-06T15:00"
+    },
+    {
+      "numero": 4,
+      "data": "2026-09-13T15:00"
+    },
+    {
+      "numero": 5,
+      "data": "2026-09-20T15:00"
+    },
+    {
+      "numero": 6,
+      "data": "2026-10-11T15:00"
+    },
+    {
+      "numero": 7,
+      "data": "2026-10-18T15:00"
+    },
+    {
+      "numero": 8,
+      "data": "2026-10-25T15:00"
+    },
+    {
+      "numero": 9,
+      "data": "2026-10-28T15:00"
+    },
+    {
+      "numero": 10,
+      "data": "2026-11-01T15:00"
+    },
+    {
+      "numero": 11,
+      "data": "2026-11-08T15:00"
+    },
+    {
+      "numero": 12,
+      "data": "2026-11-22T15:00"
+    },
+    {
+      "numero": 13,
+      "data": "2026-11-29T15:00"
+    },
+    {
+      "numero": 14,
+      "data": "2026-12-06T15:00"
+    },
+    {
+      "numero": 15,
+      "data": "2026-12-13T15:00"
+    },
+    {
+      "numero": 16,
+      "data": "2026-12-20T15:00"
+    },
+    {
+      "numero": 17,
+      "data": "2027-01-03T15:00"
+    },
+    {
+      "numero": 18,
+      "data": "2027-01-06T15:00"
+    },
+    {
+      "numero": 19,
+      "data": "2027-01-10T15:00"
+    },
+    {
+      "numero": 20,
+      "data": "2027-01-17T15:00"
+    },
+    {
+      "numero": 21,
+      "data": "2027-01-24T15:00"
+    },
+    {
+      "numero": 22,
+      "data": "2027-01-31T15:00"
+    },
+    {
+      "numero": 23,
+      "data": "2027-02-07T15:00"
+    },
+    {
+      "numero": 24,
+      "data": "2027-02-14T15:00"
+    },
+    {
+      "numero": 25,
+      "data": "2027-02-21T15:00"
+    },
+    {
+      "numero": 26,
+      "data": "2027-02-28T15:00"
+    },
+    {
+      "numero": 27,
+      "data": "2027-03-07T15:00"
+    },
+    {
+      "numero": 28,
+      "data": "2027-03-14T15:00"
+    },
+    {
+      "numero": 29,
+      "data": "2027-03-21T15:00"
+    },
+    {
+      "numero": 30,
+      "data": "2027-04-04T15:00"
+    },
+    {
+      "numero": 31,
+      "data": "2027-04-11T15:00"
+    },
+    {
+      "numero": 32,
+      "data": "2027-04-18T15:00"
+    },
+    {
+      "numero": 33,
+      "data": "2027-04-25T15:00"
+    },
+    {
+      "numero": 34,
+      "data": "2027-05-02T15:00"
+    },
+    {
+      "numero": 35,
+      "data": "2027-05-09T15:00"
+    },
+    {
+      "numero": 36,
+      "data": "2027-05-16T15:00"
+    },
+    {
+      "numero": 37,
+      "data": "2027-05-23T15:00"
+    },
+    {
+      "numero": 38,
+      "data": "2027-05-30T15:00"
+    }
   ]
 }

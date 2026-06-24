@@ -763,3 +763,56 @@ footer a:hover { text-decoration: underline; }
 @media (max-width: 480px) {
   .header-brand-text p { display: none; }
 }
+
+/* ── Intro pagina ─────────────────────────────────────── */
+.page-intro { color: var(--muted); max-width: 640px; margin-top: 6px; }
+
+/* ── Risultati ────────────────────────────────────────── */
+.risultati-toolbar { display:flex; align-items:center; gap:12px; margin:24px 0 18px; flex-wrap:wrap; }
+.risultati-toolbar label { color: var(--muted); font-weight:600; text-transform:uppercase; font-size:.78rem; letter-spacing:.08em; }
+#sel-giornata {
+  font-family: var(--font); font-size:1rem; font-weight:600; color: var(--text);
+  background: var(--surface-2); border:1px solid var(--border-2); border-radius: var(--radius-sm);
+  padding:11px 16px; cursor:pointer; min-width:240px;
+}
+#sel-giornata:focus { outline:none; border-color: var(--tc-border); box-shadow: var(--tc-glow); }
+.ris-giornata { display:flex; flex-direction:column; gap:8px; }
+.ris-data { color: var(--tc); font-weight:600; margin-bottom:8px; }
+.ris-row {
+  display:grid; grid-template-columns: 1fr auto 1fr; align-items:center; gap:12px;
+  background: var(--surface); border:1px solid var(--border); border-radius: var(--radius-sm);
+  padding:12px 16px;
+}
+.ris-casa  { text-align:right; font-weight:600; }
+.ris-ospite{ text-align:left;  font-weight:600; }
+.ris-box {
+  min-width:74px; text-align:center; background: var(--navy); border:1px solid var(--border-2);
+  border-radius:8px; padding:6px 10px; font-weight:700; font-variant-numeric:tabular-nums;
+}
+.ris-gol { color: var(--white); } .ris-sep { color: var(--muted); margin:0 4px; }
+.ris-vs  { color: var(--muted); }
+
+/* ── Bonus più gettonati (marquee) ────────────────────── */
+.bonus-stats { margin: 8px 0 4px; }
+.bonus-stats-head { display:flex; align-items:center; gap:12px; }
+.bonus-stats-head h3 { margin:0; }
+.demo-badge {
+  font-size:.7rem; font-weight:700; letter-spacing:.08em; color: var(--gold);
+  background: var(--gold-dim); border:1px solid rgba(245,183,48,0.3); border-radius:999px; padding:4px 10px;
+}
+.bonus-stats-sub { color: var(--muted); margin:4px 0 16px; }
+.bonus-marquee { overflow:hidden; -webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent); mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent); }
+.bonus-track { display:flex; gap:16px; width:max-content; animation: bonus-scroll 40s linear infinite; }
+.bonus-marquee:hover .bonus-track { animation-play-state: paused; }
+@keyframes bonus-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+.bs-card {
+  flex:0 0 300px; background: var(--surface); border:1px solid var(--border-2);
+  border-radius: var(--radius); padding:18px 20px;
+}
+.bs-card h4 { margin:0 0 14px; color: var(--tc); font-size:1.02rem; }
+.bs-riga { display:grid; grid-template-columns: 96px 1fr 28px; align-items:center; gap:10px; margin-bottom:9px; }
+.bs-nome { font-size:.82rem; font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.bs-bar { height:8px; background: var(--surface-3); border-radius:999px; overflow:hidden; }
+.bs-fill { display:block; height:100%; background: linear-gradient(90deg, var(--tc2), var(--tc)); border-radius:999px; }
+.bs-voti { text-align:right; font-weight:700; font-variant-numeric:tabular-nums; color: var(--muted); font-size:.85rem; }
+@media (prefers-reduced-motion: reduce) { .bonus-track { animation:none; } }

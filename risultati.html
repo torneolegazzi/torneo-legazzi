@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Torneo Legazzi — Pronostici</title>
+<title>Torneo Legazzi — Risultati</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap">
@@ -21,20 +21,26 @@
     <a href="index.html">Home</a>
     <a href="regolamento.html">Regolamento</a>
     <a href="classifica.html">Classifica</a>
-    <a href="risultati.html">Risultati</a>
-    <a href="pronostici.html" class="active">Partecipanti</a>
+    <a href="risultati.html" class="active">Risultati</a>
+    <a href="pronostici.html">Partecipanti</a>
     <a href="albo.html">Albo d'oro</a>
     <a href="contatti.html">Contatti</a>
   </nav>
 </header>
 <main>
-  <h2 data-reveal="up">Partecipanti</h2>
-  <p class="page-intro" data-reveal="up">Tutti gli iscritti al torneo. Accanto a ogni nome trovi il PDF dei suoi pronostici.</p>
-  <div id="lista-partecipanti" style="margin-top:28px">Caricamento…</div>
+  <h2 data-reveal="up">Risultati</h2>
+  <p class="page-intro" data-reveal="up">Seleziona la giornata di Serie A per vedere le partite e i risultati.</p>
+
+  <div class="risultati-toolbar" data-reveal="up">
+    <label for="sel-giornata">Giornata</label>
+    <select id="sel-giornata"></select>
+  </div>
+
+  <div id="risultati-wrap" data-reveal="up">Caricamento…</div>
 </main>
 <footer>Torneo Legazzi &middot; aggiornato automaticamente</footer>
 <script src="script.js"></script>
 <script src="animations.js"></script>
-<script>applicaVisibilitaSito().then(ok => { if (ok) caricaPronostici(); });</script>
+<script>applicaVisibilitaSito().then(ok => { if (ok) caricaRisultati(); });</script>
 </body>
 </html>

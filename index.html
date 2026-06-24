@@ -22,7 +22,8 @@
     <a href="index.html" class="active">Home</a>
     <a href="regolamento.html">Regolamento</a>
     <a href="classifica.html">Classifica</a>
-    <a href="pronostici.html">Pronostici</a>
+    <a href="risultati.html">Risultati</a>
+    <a href="pronostici.html">Partecipanti</a>
     <a href="albo.html">Albo d'oro</a>
     <a href="contatti.html">Contatti</a>
   </nav>
@@ -116,6 +117,17 @@
     <small>Entro inizio 20ª giornata — dopo questa data i pronostici del Ritorno sono bloccati</small>
   </div>
 
+  <!-- ── BONUS PIU' GETTONATI (marquee) ──────────────────── -->
+  <section id="bonus-stats" class="bonus-stats" data-reveal="up" style="display:none">
+    <div class="bonus-stats-head">
+      <h3>Bonus più gettonati</h3>
+      <span id="bonus-demo-badge" class="demo-badge" style="display:none">ANTEPRIMA · dati demo</span>
+    </div>
+    <p class="bonus-stats-sub">Le scelte più popolari dei partecipanti, in ordine decrescente.</p>
+    <div class="bonus-marquee">
+      <div id="bonus-track" class="bonus-track"></div>
+    </div>
+  </section>
 
 </main>
 
@@ -128,6 +140,7 @@ applicaVisibilitaSito().then(ok => {
   if (!ok) return;
   avviaCountdownHome();
   caricaTop3();
+  caricaBonusStats();
   caricaPagamento();
   caricaMenzioni();
   caricaConfig().then(cfg => {
